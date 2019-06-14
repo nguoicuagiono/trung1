@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.top {
+    background-color: BurlyWood;
+    line-height: 20px;
+}
+
+.top>ul {
+    float: right;
+    padding: 0 15px;
+    margin: 0;
+}
+
+.top a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.top img {
+    width: 18px;
+    height: 18px;
+    padding-top: 3px;
+}
+
+.header {
+    position: relative;
+    background-image: url(../imager/hinhnen.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 8%;
+}
+
+.header_Text {
+    text-align: center;
+    margin: 0;
+   
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    color: rgba(190, 14, 14, 0.719);
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    
+
+ 
+}
+
+.menu {
+    background-color: rgb(17, 64, 102);
+    line-height: 30px;
+}
+
+.menu>ul {
+    padding: 0;
+    margin: 0;
+    font-variant: small-caps;
+    font-size: 20px;
+    text-align: left;
+}
+
+.menu>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu>ul>li>a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0 30px;
+    transition: 0.4s;
+    font-size: 1.5rem;
+}
+
+.menu>ul>li>a:hover {
+    color: rgb(17, 64, 102);
+    background-color: white;
+}
+
+.menu>ul>li:hover>.submenu {
+    display: block;
+}
+
+.submenu {
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 5px black;
+    list-style: none;
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+
+.submenu a {
+    line-height: 15px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.submenu a:hover {
+    color: white;
+    background-color: rgba(9, 9, 192, 0.842);
+}
+
+.vmenu {
+    width: 300px;
+    box-shadow: 0 0 1px gray;
+    float: right;
+    display: block;
+    position: relative;
+    background-color: red;
+ 
+}
+
+.vmenu>ul {
+    margin: 30px 0 0 0;
+    padding: 0px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.vmenu>ul>li>a {
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+    display: block;
+    color: black;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.vmenu>p {
+    font-size: 40px;
+    font-family: 'Tahoma';
+    color: red;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.vmenu>ul>li>a:hover {
+    color: blue;
+}
+
+.vmenu>a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.vmenu>a:hover {
+    color: #20B2AA;
+}
+
+.container>article {
+    width: 80%;
+    float: left;
+    min-height: 800px;
+}
+
+.container>aside {
+    width: 20%;
+    float: right;
+    min-height: 800px;
+    background: white;
+}
+
+footer {
+    background-color: #2F4F4F;
+    color: white;
+    min-height: 100px;
+    border-top: 5px double black;
+    text-align: center;
+    clear: both;
+    padding: 30px 0;
+    font-size: 14px;
+}
+#h {font-weight:400;
+    display: block;
+    font-size: 30px;
+    margin: 0 0 5px;
+    letter-spacing: 5px;
+}
+
+audio {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.container>article>iframe[name=page] {
+    width: 100%;
+    height: 1000px;
+}
+
+.sachahy {
+    display: block;
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+
+.TimKiem {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.icon8 img:hover{
+    filter: drop-shadow(8px 8px 10px gray);
+    filter: contrast(0%);
+
+}
+
+.icon8 img{
+    width: 55px;
+    transition: 0.4s;
+    filter: drop-shadow(8px 8px 10px gray);
+    filter: contrast(150%);
+    cursor: pointer;
+}
+
+.icon8{
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+    right: 0px;
+}
+
+
+

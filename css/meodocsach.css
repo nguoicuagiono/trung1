@@ -1,0 +1,13 @@
+.canhgiua {
+    text-align: center;
+    color: brown;
+    font-variant: small-caps;
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chu {
+    text-align: justify;
+}

@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    background-color: #a9e5f0;
+}
+
+.container {
+    width: 800px;
+    height: 700px;
+    background: rgb(206, 221, 221);
+    margin: 0 auto;
+    font-family: 'Saira', sans-serif;
+    color: black;
+    position: relative;
+}
+
+.container>h1 {
+    padding: 0 10px;
+    font-size: 24px;
+    font-variant: small-caps;
+    color: red;
+}
+
+.md {
+    font-size: 20px;
+}
+
+.container>div {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 10px;
+    bottom: 150px;
+}
+
+img:hover {
+    width: 250px;
+    height: 250px;
+}
+
+.congty {
+    padding: 140px 0;
+    font-size: 12px;
+}
