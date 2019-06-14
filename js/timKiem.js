@@ -7,10 +7,10 @@ var database = [
     ["ánh sáng vô hình", "sachCotichCuaNguoiDien.html"],
     ["kẻ nhìn trộm", "sachKeNhinTrom.html"],
     ["mười người da đen đỏ", "sachMuoiTenĐAenDo.html"],
-    ["bắt trẻ đồng xanh", "sachBAtTreDongXanh"],
+    ["bắt trẻ đồng xanh", "sachBAtTreDongXanh.html"],
     ["dù sao cũng là chúng ta tuổi 20", "sachDuSAoChungTa.html"],
-    ["lời chia tay đẹp nhất thế gian", "sachLoichiaTAyDep"],
-    ["một lít nước mắt", "sachMotLitNuocMat"],
+    ["lời chia tay đẹp nhất thế gian", "sachLoichiaTAyDep.html"],
+    ["một lít nước mắt", "sachMotLitNuocMat.html"],
 ];
 
 $(document).ready(function() {
