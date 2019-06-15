@@ -1,16 +1,16 @@
 var database = [
-    ["yêu anh hơn Cả tử thần", "sachyeuanh.html"], 
+    ["yêu anh hơn cả tử thần", "sachyeuanh.html"], 
     ["hãy yêu một người xứng đáng là đàn ông", "sachhayyeumotnguoidanong.html"],
     ["anh chính là thanh xuân em ", "sachAnhChinhLaThanhXuanCuaem.html"],
-    ["ngũ ngon hẹn mai nhé", "sachNguNgonHenMaiNhe.html"],
-    ["cỗ tích của người điên", "sachCotichCuaNguoiDien.html"],
+    ["ngủ ngon hẹn mai nhé", "sachNguNgonHenMaiNhe.html"],
+    ["cổ tích của người điên", "sachCotichCuaNguoiDien.html"],
     ["ánh sáng vô hình", "sachCotichCuaNguoiDien.html"],
     ["kẻ nhìn trộm", "sachKeNhinTrom.html"],
-    ["mười người da đen đỏ", "sachMuoiTenĐAenDo.html"],
+    ["mười người da đen đỏ", "sachmuoitendaden.html"],
     ["bắt trẻ đồng xanh", "sachBAtTreDongXanh.html"],
     ["dù sao cũng là chúng ta tuổi 20", "sachDuSAoChungTa.html"],
     ["lời chia tay đẹp nhất thế gian", "sachLoichiaTAyDep.html"],
-    ["một lít nước mắt", "sachMotLitNuocMat.html"],
+    ["một lít nước mắt", "sachMotLitNuocMat.html"]
 ];
 
 $(document).ready(function() {
